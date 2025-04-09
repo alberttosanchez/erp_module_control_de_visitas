@@ -234,10 +234,10 @@
         if ( 
             // elimina la imagen guardada si hay una imagen blob o una cadena especifica
             /* (isset($image_src) && strpos($image_src,'blob:') > -1) ||
-            $image_src == 'http://ijoven.juventud.local/control-de-visitas/register' */
+            $image_src == 'http://domain.local/control-de-visitas/register' */
             isset($base64_image) && !empty($base64_image) 
             || (isset($image_src) && strpos($image_src,'blob:') > -1) 
-            || $image_src == 'http://ijoven.juventud.local/control-de-visitas/register'
+            || $image_src == 'http://domain.local/control-de-visitas/register'
          )
         {        
             
